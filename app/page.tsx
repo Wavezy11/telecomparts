@@ -3,7 +3,6 @@ import HeroBanner from '@/components/HeroBanner';
 import CategoryGrid from '@/components/CategoryGrid';
 import ProductGrid from '@/components/ProductGrid';
 import GamingSection from '@/components/GamingSection';
-import SEOContentBlock from '@/components/SEOContentBlock';
 import Footer from '@/components/Footer';
 
 const mockProducts = [
@@ -91,10 +90,6 @@ export default function HomePage() {
         
         <section id="gaming">
           <GamingSection />
-        </section>
-        
-        <section id="seo-content">
-          <SEOContentBlock />
         </section>
       </main>
       <Footer />
