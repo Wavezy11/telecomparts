@@ -18,6 +18,8 @@ import {
   Zap
 } from 'lucide-react';
 import Link from 'next/link';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export default function OverOnsPage() {
   const team = [
@@ -90,6 +92,8 @@ export default function OverOnsPage() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Header />
+      
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 lg:px-8">
@@ -318,6 +322,8 @@ export default function OverOnsPage() {
           </div>
         </div>
       </section>
+      
+      <Footer />
     </div>
   );
 }

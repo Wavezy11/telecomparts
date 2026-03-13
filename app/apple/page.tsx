@@ -15,6 +15,8 @@ import {
   Check
 } from 'lucide-react';
 import Link from 'next/link';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 interface Product {
   id: string;
@@ -245,7 +247,9 @@ export default function ApplePage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
+      <Header />
+      
+      {/* Page Header */}
       <div className="bg-gradient-to-r from-gray-900 to-gray-800 text-white">
         <div className="max-w-7xl mx-auto px-4 lg:px-8 py-12">
           <div className="flex items-center gap-4 mb-6">
@@ -403,6 +407,8 @@ export default function ApplePage() {
           </div>
         </div>
       </div>
+      
+      <Footer />
     </div>
   );
 }
