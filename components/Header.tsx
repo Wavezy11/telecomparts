@@ -15,8 +15,6 @@ export default function Header() {
     { name: 'Accessoires', href: '/accessoires', type: 'category' },
     { name: 'Opladers', href: '/opladers', type: 'category' },
     { name: 'Gaming', href: '/gaming', type: 'category' },
-    { name: 'Sale', href: '/sale', type: 'category' },
-    { name: 'Bestsellers', href: '/products?sort=popular', type: 'main' },
     { name: 'Over Ons', href: '/over-ons', type: 'main' },
   ];
 
